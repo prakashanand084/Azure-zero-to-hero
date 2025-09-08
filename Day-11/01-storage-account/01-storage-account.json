@@ -6,17 +6,17 @@
     "variables": {},
     "resources": [
         {
-            "name": "abhioshekveeramalla11232",
+            "name": "prakashanandcloud",
             "type": "Microsoft.Storage/storageAccounts",
             "apiVersion": "2023-01-01",
             "tags": {
-                "displayName": "abhioshekveeramalla11232"
+                "displayName": "prakashanandcloud"
             },
             "location": "[resourceGroup().location]",
             "kind": "StorageV2",
             "sku": {
-                "name": "Premium_LRS",
-                "tier": "Premium"
+                "name": "Standard_LRS",
+                "tier": "Standard"
             }
         }
     ],
